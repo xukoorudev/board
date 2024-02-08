@@ -34,3 +34,14 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+npm i @liveblocks/client
+npm i @liveblocks/react
+npx create-liveblocks-app@latest --init --framework react
+
+CONVEX_DEPLOYMENT=dev:vivid-cobra-958
+
+NEXT_PUBLIC_CONVEX_URL=https://vivid-cobra-958.convex.cloud
+
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=pk_test_c3VidGxlLXRlcm1pdGUtNTMuY2xlcmsuYWNjb3VudHMuZGV2JA
+CLERK_SECRET_KEY=sk_test_nJL8553sB9i4nlaeSGJNlnkU7Z5M2na11ovebNg2FK
