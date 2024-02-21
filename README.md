@@ -38,10 +38,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 npm i @liveblocks/client
 npm i @liveblocks/react
 npx create-liveblocks-app@latest --init --framework react
+npm i react-contenteditable
+npm i perfect-freehand
 
-CONVEX_DEPLOYMENT=dev:vivid-cobra-958
 
-NEXT_PUBLIC_CONVEX_URL=https://vivid-cobra-958.convex.cloud
-
-NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=pk_test_c3VidGxlLXRlcm1pdGUtNTMuY2xlcmsuYWNjb3VudHMuZGV2JA
-CLERK_SECRET_KEY=sk_test_nJL8553sB9i4nlaeSGJNlnkU7Z5M2na11ovebNg2FK
